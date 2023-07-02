@@ -4,7 +4,7 @@ import './styles/main.scss'
 function App() {
     return (
         <div className="App">
-            <div className=" vgap-3">
+            <div className="flex justify-center vgap-3">
                 <div className="flex">
                     <h3>IRT</h3>
                     <p>jfjf</p>
