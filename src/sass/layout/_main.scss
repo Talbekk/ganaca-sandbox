@@ -1,0 +1,8 @@
+.main {
+    display: grid;
+    grid-template-rows: min-content min-content;
+    padding: 5em;
+    border: 1px solid grey;
+    border-radius: 5px;
+    gap: 2em;
+}

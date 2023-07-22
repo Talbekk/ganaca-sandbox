@@ -1,0 +1,21 @@
+.section {
+    &-header {
+        display: grid;
+        grid-template-columns: min-content 1fr;
+        gap: 1em;
+        align-items: center;
+    }
+
+    &-translation-selection {
+        display: grid;
+        grid-template-columns: min-content min-content min-content;
+        gap: 1em;
+        align-items: center;
+    }
+
+    &-textarea-input {
+        display: grid;
+        grid-template-rows: min-content min-content min-content;
+        gap: 1em;
+    }
+}

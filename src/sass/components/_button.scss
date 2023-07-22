@@ -1,0 +1,28 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        display: grid;
+        justify-self: flex-end  ;
+        font-size: 1.5em;
+        font-weight: 700;
+        padding: .5em;
+        border-radius: 5px;
+        text-transform: uppercase;
+        background-color: $color-primary;
+        color: $color-white;
+        text-decoration: none;
+        transition: all .2s;
+        position: relative;
+        cursor: pointer; 
+    }
+
+    &:hover {
+        box-shadow: 0 1rem 2rem rgba($color-primary, .2);
+    }
+    
+    &:active,
+    &:focus {
+        box-shadow: 0 .5rem 1rem rgba($color-primary, .2);
+    }
+}
