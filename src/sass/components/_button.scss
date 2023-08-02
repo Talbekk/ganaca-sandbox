@@ -3,12 +3,11 @@
     &:link,
     &:visited {
         display: grid;
-        justify-self: flex-end  ;
+        justify-self: flex-end;
         font-size: 1.5em;
         font-weight: 700;
         padding: .5em;
         border-radius: 5px;
-        text-transform: uppercase;
         background-color: $color-primary;
         color: $color-white;
         text-decoration: none;
